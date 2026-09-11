@@ -33,10 +33,10 @@ import apiRoutes from "./apiRoutes.js";
 
 const router = express.Router();
 
-router.use("/", homeRoutes);
-router.use("/", aboutRoutes);
-router.use("/", serviceRoutes);
-router.use("/", profileRoutes);
-router.use("/", apiRoutes);
+router.use("/trisha", homeRoutes);
+router.use("/trisha", aboutRoutes);
+router.use("/trisha", serviceRoutes);
+router.use("/trisha", profileRoutes);
+router.use("/trisha", apiRoutes);
 
 export default router;
